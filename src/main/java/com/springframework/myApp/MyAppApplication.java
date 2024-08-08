@@ -9,8 +9,8 @@ public class MyAppApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(MyAppApplication.class, args);
-		Car obj = context.getBean(Car.class);
-		obj.move();
+		Dev obj = context.getBean(Dev.class);
+		obj.work();
 	}
 
 }
